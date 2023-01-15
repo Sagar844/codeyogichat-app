@@ -1,0 +1,37 @@
+
+.incomming-message {
+  background: indigo;
+  color: white;
+}
+.outgoing-message {
+  margin-left: aut o;
+  background: red;
+  color: black;
+  margin-top: 10px;
+}
+
+.text {
+  width: 100%;
+  border: none;
+  padding: 16px;
+  outline: none;
+  background: white;
+  font-size: 16px;
+}
+
+.message h4 {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  color: indigo;
+}
+
+.chat_section {
+  width: 800px;
+  max-width: 90%;
+  background: white;
+}
+
+.message-area{
+  height:500px; padding: 16px; display: flex; flex-direction:column; padding-top: 40px; overflow-y: auto;
+} 

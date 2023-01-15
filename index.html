@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>Chat-App</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body
+    style="
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+
+
+    "
+  >
+    <section class="chat_section" >
+      <div>
+        <img width="100px" src="/chat1.png" alt="" />
+        <h1 class="text-xl">Chat-App</h1>
+      </div>
+      <div class="message-area"">
+        <div class="incomming-message">
+        
+        </div>
+
+        <div class="outgoing-message">
+        
+        </div>
+      </div>
+
+      <div class="text">
+        <textarea
+          id="textarea"
+          cols="30"
+          rows="1"
+          placeholder="write a message"
+        ></textarea>
+      </div>
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/clint.js"></script>
+  </body>
+</html>
